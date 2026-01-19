@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.badge{
+  padding: 6px 14px;
+  font-size: 14px;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Badge Colors */
+.new{ background-color: #2563eb; }
+.sale{ background-color: #dc2626; }
+.trending{ background-color: #7c3aed; }
+.beta{ background-color: #0d9488; }
+.success{ background-color: #16a34a; }
+.warning{ background-color: #ca8a04; }
+.error{ background-color: #b91c1c; }
